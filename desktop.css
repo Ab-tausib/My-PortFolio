@@ -1,0 +1,128 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} 
+ 
+
+*{
+ scroll-behavior: smooth;
+}
+ /* navbar akan teke suru */
+.nav-logo{
+    text-align: left;
+}
+.nav-hedding{
+    text-align: right;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-menu a{
+    padding: 10px;
+    margin: 0px 2px;
+    background: transparent;
+    color: white;
+}
+
+  /* navbar akane ese sesh */
+
+  /* profile disign starts here */
+  .profile .top-father-icon{
+    width:120px;
+    right:100px;
+    transition:width 2s, transform 2s;
+  }
+
+  .profile .top-father-icon:hover{
+    width:160px;
+    cursor:pointer;
+  }
+  .profile-desc p {
+    margin-bottom:10px
+    margin 0 auto;
+    color:gray;
+    width:70%
+  }
+
+ .profile .bottom-father-icon{
+    width:120px;
+    bottom:20px;
+    left:140px;
+    transition:width 2s, transform 2s;
+  }
+
+  .profile .bottom-father-icon:hover{
+    width:160px;
+    cursor:pointer;
+  }
+   
+
+  /* profile disign ends here */
+
+  /* about me section starts here */
+   .about-img{
+     margin-top:100px;
+   }
+   .about-img img{
+     height:270px;
+     width:250px;
+   }
+   .about desc p{
+     text-align:left;
+   }
+  
+  /* about me section ends here */
+
+  /* professional experiense starts here */
+
+  .pro-work-ex{
+    padding: 1% 5%;
+  }
+
+    /* professional experiense ends here */
+
+    /* achivment contact starts here */
+    .achivment{
+      padding-right: 50px;
+    }
+    .contact button{
+      width: 150px;
+
+    }
+    .contact-link{
+      position: relative;
+    }
+    .media-btn{
+      position: absolute;
+      left: 85%;
+      top: 430%;
+      transform: translate(-50%,-50%);
+    }
+
+
+    /* achivment contact ends here */    
+
+    /* footer starts here */
+      .footer-menu{
+        margin-top: 12px;
+
+      }
+      .footer-menu a{
+        display: inline;
+        margin-top: 10px;
+        margin-right: 20px;
+
+      }
+
+     /* footer ends here */
